@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<catalogo>
-  <libro id="L001">
-    <titulo>Don Quijote de la Mancha</titulo>
-    <autor>Miguel de Cervantes</autor>
-    <anio>1605</anio>
-  </libro>
-</catalogo>
