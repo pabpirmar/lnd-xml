@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalogo [
+  <!ELEMENT catalogo (libro+)>
+  <!ELEMENT libro (titulo, autor, anio)>
+  <!ATTLIST libro id ID #REQUIRED>
+  <!ELEMENT titulo (#PCDATA)>
+  <!ELEMENT autor (#PCDATA)>
+  <!ELEMENT anio (#PCDATA)>
+]>
+<catalogo>
+  <libro id="L001">
+    <titulo>Don Quijote de la Mancha</titulo>
+    <autor>Miguel de Cervantes</autor>
+    <anio>1605</anio>
+  </libro>
+</catalogo>
